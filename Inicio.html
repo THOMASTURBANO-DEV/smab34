@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVISMO</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => section.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+    <link rel="icon" type="image/png" href="logotipo.png">
+</head>
+<body>
+    <header>
+    <button class="menu-button" onclick="toggleMenu()">
+        <img src="menu_hamburguesa.png" alt="Menu">
+    </button>
+    <nav class="side-menu" id="sideMenu">
+        <a href="Inicio.html">Inicio</a>
+        <a href="more.html">Mais Tópicos</a>
+        <a href="info.html">Sobre</a>
+        <a href="faq.html">FAQ</a>
+        <a href="creditos.html">Créditos</a>
+    </nav>
+    <h2 style="font-size: 24px; font-weight: bold;">AJUDE O MEIO AMBIENTE</h2>
+        <img src="logotipo.png" style="width: 80px; height:80px; position: absolute; top: 5px; right: 5px;">
+    <a href="#" onclick="showSection('noticias')" class="subtopic">Noticias</a>
+    <a href="#" onclick="showSection('projetos')" class="subtopic">Projetos</a>
+    <a href="#" onclick="showSection('geral')" class="subtopic">Geral</a>
+    <a href="#" onclick="showSection('games')" class="subtopic">Games</a>
+    <a href="Krepus Ai Character/ai_krepus_interface.html" class="subtopic">Krepus IA (beta relase)</a>
+    <a href="#" onclick= "showSection('outros')" class="subtopic">Outros Assuntos</a>
+    <a href="https://whatsapp.com/channel/0029Vb5pkUw11ulQvipAN50Q" class="whatsapp-icon" target="_blank"></a>
+</header>
+    <main class="topic">
+        <section id="noticias">
+            <ul>
+                <h1 style="color: darkred; font-family: 'Times New Roman', Times, serif;">NOTICIAS</h1>
+                <h3>Incêndios Florestais na Amazônia: Uma Crise Ambiental Alarmante</h2>
+                <img src="queima_amazonia_2024.jpg" alt="Incêndios Florestais na Amazônia" class="image" height="50%" width="50%">
+                <p>A Amazônia, frequentemente chamada de "pulmão do mundo", enfrenta uma crise ambiental de proporções alarmantes. 
+                Recentemente, os incêndios florestais atingiram níveis recordes no estado do Amazonas, que registrou o maior número de queimadas em 26 anos, com mais de 21,6 mil focos em 2024. 
+                A fumaça densa gerada por esses incêndios cobriu todas as 62 cidades do estado, incluindo Manaus, afetando drasticamente a qualidade do ar e a saúde da população.
+                O impacto ambiental é devastador. Além da perda irreparável de áreas de floresta nativa, a queimada de vegetação libera uma quantidade massiva de carbono na atmosfera, agravando as mudanças climáticas. 
+                Esses incêndios são frequentemente impulsionados por práticas humanas, como o desmatamento ilegal e queimadas intencionais, agravadas por condições climáticas extremas, como a seca prolongada, que torna a floresta mais suscetível ao fogo.
+                A situação exige uma resposta urgente e coordenada. É necessário fortalecer a fiscalização para combater atividades ilegais, implementar políticas públicas eficazes de preservação e investir em educação ambiental para conscientizar a população. 
+                Além disso, iniciativas como a capacitação de indígenas para combater incêndios mostram que a colaboração entre o saber tradicional e a tecnologia moderna pode ser uma ferramenta poderosa na proteção da floresta.
+                Proteger a Amazônia é uma responsabilidade global. Não se trata apenas de preservar sua biodiversidade incomparável, mas também de garantir a estabilidade climática do planeta e a qualidade de vida de milhões de pessoas que dependem diretamente dela. 
+                Ignorar essa crise é fechar os olhos para as consequências catastróficas de um mundo sem sua maior floresta tropical.
+                </p>
+                </ul>
+        </section>
+        <section id="projetos">
+        <ul>
+            <h1 class="subtitle">Projetos</h1>
+            <p>None
+            </p>
+        </ul>
+        </section>
+        <!-- sessão principal -->
+        <section id="geral" class="active">
+        <ul>
+            <h1 class="subtitle">Geral</h1>
+            <p>
+                Bem-vindo à seção Geral! Aqui você encontrará uma variedade de informações e conteúdos relacionados ao ativismo ambiental, sustentabilidade e ações que fazem a diferença. Explore, inspire-se e junte-se a nós na missão de proteger o meio ambiente para as futuras gerações.
+            </p>
+            <h1>Videos:</h1>
+        <div>
+            <video width="315" height="315" controls>
+            <source src="video1.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+            </video>
+        </div>
+        </ul>
+        </section>
+        </ul>
+        </section>
+        <section id="outros">
+        <ul>
+            <h1 class="subtitle">Outros</h1>
+            <p>None
+            </p>
+        </ul>
+        </section>
+        <section id="games">
+            <ul>
+                <h1 class="subtitle">Games</h1>
+                <button style="border: none; background: none; cursor: pointer;" onclick="window.location.href='https://poki.com/br/g/tribals-io'">
+                    <img src="tribals_icon.jpeg" alt="Jogo" style="width: 100px; height: 100px;">
+                </button>
+                <button style="border: none; background: none; cursor: pointer;" onclick="window.location.href='https://poki.com/br/g/shape-fold-nature'">
+                    <img src="shape-fold-nature.jpeg" alt="Jogo" style="width: 100px; height: 100px;">
+                </button>
+                <button style="border: none; background: none; cursor: pointer;" onclick="window.location.href='https://poki.com/br/g/tiger-simulator-3d'">
+                    <img src="tiger_simulator.jpeg" alt="Jogo" style="width: 100px; height: 100px;">
+                </button>
+                <button style="border: none; background: none; cursor: pointer;" onclick="window.location.href='https://poki.com/br/g/flyordie-io'">
+                    <img src="fly_game.jpeg" alt="Jogo" style="width: 100px; height: 100px;">
+                </button>
+            </ul>
+        </section>
+    </main>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('sideMenu');
+            menu.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>

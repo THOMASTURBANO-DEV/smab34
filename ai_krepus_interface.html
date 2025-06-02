@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Krepus - Assistente Virtual</title>
+  <link rel="stylesheet" href="ai_krepus.css">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/4711/4711995.png">
+</head>
+<body>
+  <header>
+    <img src="flavicon.png" id="avatar" alt="Krepus Avatar">
+    <h1 style="background-clip: text; -webkit-background-clip: text; color: transparent; background: linear-gradient(to right, #ffff08, #ff0000); -webkit-background-clip: text; color: transparent;">KREPUS</h1>
+    <button id="theme-toggle" onclick="toggleTheme()"><img style="width: 40px; height: 40px;" src="https://cdn-icons-png.flaticon.com/512/5273/5273582.png"></button>
+  </header>
+  <a href="../Inicio.html" class="home-icon" target="_blank"></a>
+  <div id="chat-container"></div>
+
+  <div id="input-area">
+    <input type="text" id="entrada" placeholder="Digite sua mensagem..." />
+    <div id="send-btt">
+      <button onclick="enviar()" style="background-color: transparent; border: 2px solid rgb(129, 129, 129);"><img style="width: 20px; height: 20px;" src="https://cdn-icons-png.flaticon.com/512/3682/3682321.png"></button>
+    <button onclick="ouvir()" style="background-color: transparent; border: 2px solid rgb(129, 129, 129);"><img style="height: 20px; width: 20px;" src="https://cdn-icons-png.flaticon.com/512/7422/7422038.png"></button>
+  <script src="ai_krepus.js">
+  </script>
+</body>
+</html>

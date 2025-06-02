@@ -1,0 +1,103 @@
+header {
+  background-color: rgb(12, 79, 15);
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  text-align: center;
+  top:0;
+  position:sticky;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(19, 101, 82);
+  color: rgb(255, 255, 255);
+}
+
+.menu-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menu-button img {
+  width: 30px;
+  height: 30px;
+}
+/* Adiciona uma barra ao lado esquerdo da tela */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: rgb(12, 79, 15);
+  color: white;
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  padding: 20px;
+}
+
+.side-menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}
+
+.side-menu a:hover {
+  text-decoration: underline;
+}
+
+.side-menu.open {
+  left: 0;
+}
+.subtopic {
+  color:black;
+}
+.topics {
+  color:white;
+  text-align: center;
+}
+nav {
+  background-color: #000102;
+  padding: 10px;
+  border-bottom: 1px solid #bd2121;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #b42d2d;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 20px;
+}
+section {
+  display: none;
+}
+section.active {
+  display: block;
+}
+.subtitle {
+  color: rgb(26, 63, 1);
+}
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px; /* Ajuste da posição na tela */
+  right: 20px;
+  width: 40px; /* Tamanho ajustado do ícone */
+  height: 40px;
+  background-image: url('whatsapp-icon.png'); /* Caminho para a imagem do ícone */
+  background-size: contain; /* Mantém o tamanho proporcional da imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  cursor: pointer; /* Muda o cursor ao passar sobre o ícone */
+  z-index: 1000; /* Garante que o ícone fique por cima dos outros elementos */
+}
