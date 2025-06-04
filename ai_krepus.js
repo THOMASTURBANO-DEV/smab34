@@ -274,6 +274,25 @@ const chat = document.getElementById("chat-container");
   "Quem escreveu 'A Origem das Espécies'?": ["Charles Darwin, o pai da teoria da evolução.", "Darwin é o autor de 'A Origem das Espécies'."],
   "Qual é o gênero literário mais popular?": ["Romance, devido à sua ampla variedade de histórias.", "Ficção científica e fantasia também são muito populares."],
   "Quem foi Machado de Assis?": ["Um dos maiores escritores brasileiros.", "Machado de Assis é conhecido por obras como 'Dom Casmurro'."],
+  "Quem foi Santos Dumont?": ["Um pioneiro da aviação brasileira, conhecido como o Pai da Aviação.", "Santos Dumont foi o inventor do 14-Bis, um dos primeiros aviões."],
+  "Qual é o maior bioma do Brasil?": ["A Amazônia, que cobre grande parte do território brasileiro.", "O maior bioma do Brasil é a Floresta Amazônica."],
+  "Quem descobriu o Brasil?": ["Pedro Álvares Cabral, em 1500.", "O Brasil foi descoberto por Pedro Álvares Cabral."],
+  "Qual é o maior estado do Brasil?": ["O Amazonas, localizado na região Norte.", "O maior estado brasileiro em área é o Amazonas."],
+  "Qual é o menor estado do Brasil?": ["Sergipe, localizado na região Nordeste.", "O menor estado do Brasil é Sergipe."],
+  "Qual é o idioma oficial do Brasil?": ["O português, herdado da colonização portuguesa.", "O idioma oficial do Brasil é o português."],
+  "Qual é o prato típico do Brasil?": ["A feijoada, feita com feijão preto e carnes.", "A feijoada é um dos pratos mais tradicionais do Brasil."],
+  "Qual é o maior rio do Brasil?": ["O Rio Amazonas, que também é o maior do mundo em volume de água.", "O maior rio do Brasil é o Amazonas."],
+  "Quem foi Tiradentes?": ["Um líder da Inconfidência Mineira, movimento pela independência do Brasil.", "Tiradentes é um herói nacional que lutou pela liberdade do Brasil."],
+  "Qual é a moeda do Brasil?": ["O Real, representado pelo símbolo R$.", "A moeda oficial do Brasil é o Real (R$)."],
+  "Qual é a maior festa popular do Brasil?": ["O Carnaval, celebrado em todo o país.", "O Carnaval é a maior festa popular brasileira, famosa mundialmente."],
+  "Qual é o esporte mais praticado no Brasil?": ["O futebol, que é uma paixão nacional.", "O esporte mais popular no Brasil é o futebol."],
+  "Quem foi Pelé?": ["Um dos maiores jogadores de futebol de todos os tempos, conhecido como o Rei do Futebol.", "Pelé é uma lenda do futebol brasileiro e mundial."],
+  "Qual é o símbolo nacional do Brasil?": ["A bandeira verde, amarela, azul e branca.", "O símbolo nacional do Brasil é sua bandeira, com o lema 'Ordem e Progresso'."],
+  "Qual é o clima predominante no Brasil?": ["O clima tropical, com variações regionais.", "O Brasil possui predominantemente clima tropical."],
+  "Quais são as regiões do Brasil?": ["Norte, Nordeste, Centro-Oeste, Sudeste e Sul.", "O Brasil é dividido em cinco regiões: Norte, Nordeste, Centro-Oeste, Sudeste e Sul."],
+  "Qual é o ponto turístico mais famoso do Brasil?": ["O Cristo Redentor, no Rio de Janeiro.", "O Cristo Redentor é um dos pontos turísticos mais conhecidos do Brasil."],
+  "Qual é a maior cidade do Brasil?": ["São Paulo, localizada na região Sudeste.", "A maior cidade do Brasil em população e economia é São Paulo."],
+  "Quem foi Oscar Niemeyer?": ["Um dos maiores arquitetos do Brasil, conhecido por projetar Brasília.", "Oscar Niemeyer foi um arquiteto renomado, famoso por suas obras modernistas."]
       };
 
       // Garante que todas as respostas sejam arrays
